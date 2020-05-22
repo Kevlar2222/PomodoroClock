@@ -1,0 +1,133 @@
+:root{
+    --timeColor : white;
+}
+
+
+body {
+    background-color: grey;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bolder;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    width: 15%;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+#playButton{
+    padding-bottom: 3px;
+}
+
+#resetButton{
+    padding-bottom: 3px;
+}
+
+#break {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    width: 15%;
+}
+
+#breakTime{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    width: 9%;
+}
+
+#breakDecrement {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 3%;
+}
+
+#breakIncrement {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 3%;
+}
+
+#container {
+    background-color: grey;
+    overflow: hidden;
+    text-align: center;
+}
+
+#session {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 15%;
+}
+
+#sessionDecrement {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 3%;
+}
+
+#sessionIncrement {
+    font-size: 32px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    width: 3%;
+}
+
+#sessionTime {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 6px;
+    width: 9%;
+}
+
+#time {
+    background-color: black;
+    color: var(--timeColor);
+    display: inline-block;
+    font-size: 55px;
+    width: 30%;
+}
+
+#timer {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 30%;
+}
+
+#title {
+    background-color: grey;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    font-family: 'Arial Narrow', sans-serif;
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%
+
+}
